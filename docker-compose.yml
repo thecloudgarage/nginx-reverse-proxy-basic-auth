@@ -1,1 +1,6 @@
-aaa
+version: "3.4"
+services:
+  nginx-reverse-proxy-basic-auth:
+    image: <docker-hub-username>/<image-name>
+    ports:
+     - "80:80"
